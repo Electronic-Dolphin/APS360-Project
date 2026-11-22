@@ -1,0 +1,21 @@
+{
+  "model": "almanach/camembert-base",
+  "seed": 360,
+  "checkpoint": "qfrcola_final_results\\e5_seed_360\\best_model",
+  "selection": "highest validation macro-F1 then MCC",
+  "threshold": 0.8,
+  "validation_at_0_5": {
+    "accuracy": 0.8101231922870916,
+    "macro_f1": 0.7406097645691613,
+    "mcc": 0.5315071733479292,
+    "f1_unacceptable": 0.606329816768462,
+    "f1_acceptable": 0.8748897123698606
+  },
+  "validation_at_selected_threshold": {
+    "accuracy": 0.8119978575254418,
+    "macro_f1": 0.750660619972582,
+    "mcc": 0.5352384051888505,
+    "f1_unacceptable": 0.6269925611052072,
+    "f1_acceptable": 0.874328678839957
+  }
+}

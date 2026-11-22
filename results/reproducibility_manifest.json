@@ -1,0 +1,44 @@
+{
+  "project": "APS360_QFrCoLA_Final",
+  "dataset": "graalul/qfrcola",
+  "model": "almanach/camembert-base",
+  "python": "3.11.18",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch": "2.11.0+cu128",
+  "datasets": "3.6.0",
+  "transformers": "4.57.3",
+  "huggingface_hub": "0.36.2",
+  "pandas": "3.1.1",
+  "sklearn": "1.9.1",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 3060",
+  "split_search_seed": 360,
+  "chosen_split_seed": 372,
+  "dataset_split_sha256": "20d55676cac1ed725df969075c558ecdbcb352503e52d98fd7a681f347ca6f25",
+  "split_sizes": {
+    "train": 17580,
+    "validation": 3734,
+    "test": 3839
+  },
+  "source_groups": 2798,
+  "max_subwords": 64,
+  "training_seeds": [
+    360,
+    361,
+    362
+  ],
+  "selected_seed": 360,
+  "selected_validation_threshold": 0.8,
+  "training_hyperparameters": {
+    "batch_size": 8,
+    "eval_batch_size": 16,
+    "accumulation": 2,
+    "epochs_max": 4,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "early_stop_patience": 2
+  },
+  "test_evaluated": true,
+  "external_evaluated": true
+}

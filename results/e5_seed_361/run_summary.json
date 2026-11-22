@@ -1,0 +1,22 @@
+{
+  "seed": 361,
+  "model": "almanach/camembert-base",
+  "best_epoch": 4,
+  "data_fingerprint": "20d55676cac1ed725df969075c558ecdbcb352503e52d98fd7a681f347ca6f25",
+  "best_val_loss": 0.6275039025580876,
+  "val_accuracy": 0.8074450990894483,
+  "val_macro_f1": 0.7324411735951359,
+  "val_mcc": 0.5257352589899413,
+  "val_f1_unacceptable": 0.5907797381900968,
+  "val_f1_acceptable": 0.8741026090001751,
+  "train_batch_size": 8,
+  "eval_batch_size": 16,
+  "grad_accum_steps": 2,
+  "max_subwords": 64,
+  "max_epochs": 4,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "validation_checkpoint_objective": "macro_f1_then_mcc_then_loss",
+  "checkpoint": "qfrcola_final_results\\e5_seed_361\\best_model",
+  "device": "cuda"
+}

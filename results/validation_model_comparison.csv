@@ -1,0 +1,9 @@
+experiment,macro_f1,mcc
+E1 TF-IDF + LR (historical),0.5114,0.0242
+"E2 Word BiLSTM (initial, historical)",0.4901,-0.0198
+E3 CharCNN + BiLSTM (historical),0.4889,-0.0217
+"E4 weighted BiLSTM (controlled, historical)",0.4852,-0.0292
+"E4 unweighted BiLSTM (controlled, historical)",0.4081,-0.011
+"E4 32-D weighted (controlled, historical)",0.4848,-0.0304
+E5 CamemBERT seed 360 @0.50 (new),0.7406097645691613,0.5315071733479292
+E5 CamemBERT seed 360 tuned (new),0.750660619972582,0.5352384051888505

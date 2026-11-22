@@ -1,0 +1,14 @@
+# Generated checkpoints / local experiments (not intended for GitHub)
+qfrcola_final_results/
+qfrcola_results/
+**/best_model/
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.env
+.venv/
